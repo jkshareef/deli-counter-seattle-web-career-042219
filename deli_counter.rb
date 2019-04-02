@@ -1,12 +1,12 @@
 # Write your code here.
 
 def line(array)
-  message = "The line is currently:"
+  message = "The line is currently: "
   if array == 0
     puts "The line is currently empty"
   else
     array.each_with_index { |name, index|
-      message += "#{index} #{name}"
+      message += "#{index}. #{name}"
     }
   end
 end
