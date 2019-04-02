@@ -6,7 +6,8 @@ def line(array)
     puts "The line is currently empty"
   else
     array.each_with_index { |name, index|
-      message += #{index} #{name}
+      message += "#{index} #{name}"
+    }
   end
 end
 
