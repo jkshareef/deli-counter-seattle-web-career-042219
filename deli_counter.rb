@@ -4,7 +4,8 @@ def line(array)
   if array == 0
     puts "The line is currently empty"
   else
-  puts array
+    puts array
+  end
 end
 
 def take_a_number(array, name)
