@@ -8,6 +8,7 @@ def line(array)
     array.each_with_index { |name, index|
       message += "#{index}. #{name}"
     }
+    puts message
   end
 end
 
